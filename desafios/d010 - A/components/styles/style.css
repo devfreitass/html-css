@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8e5c2;
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(#2ba35e, #023b1a);
+    color: white;
+    margin-top: -22px;
+    padding: 71px 10px 13px 10px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 3em;
+}
+
+main {
+    box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.453);
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px 60px 40px 60px
+}
+
+main > h1 {
+    color: #183d32;
+    font-family: android;
+    font-weight: normal;
+}
+
+main > h2 {
+    color: #115d31;
+    font-family: android;
+    font-weight: normal;
+    padding: 0px 0px 0px 10px;
+    background-image: linear-gradient(90deg, #8ce3b0, white);
+}
+
+p {
+    text-indent: 16px;
+    padding: 20px;
+    margin: 0px
+}
+
+p > a {
+    color: #183d32;
+    background-color: #8ce3b0;
+    padding: 3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p > a::after {
+    content: ' 🔗';
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+.video {
+    background-color: #023b1a;
+    margin-left: -11px;
+    margin-right: -11px;
+    padding: 30px;
+    text-align: center;
+}
+
+picture > img {
+    text-align: center;
+}
+
+div > ul {
+    list-style-image: url('../imagens/image_preview4.png');
+    display: inline-block;
+}
+
+
+article > h1 {
+    color: white;
+    padding: 20px;
+    background-color: #003e17;
+    border-radius: 12px 12px 0px 0px;
+    margin: 9px 0px -6px 0px;
+}
+
+article > div {
+    background-color: #80e1aa;
+    padding: 10px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav {
+    margin: 52px 0px -4px -4px;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    color: #86cba6;
+}
+
+nav > a:hover {
+    color: #003e17;
+    background-color: #2ea06996;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+aside {
+    margin: 0px;
+}
+
+footer {
+    margin: px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    background-color: #023b1a;
+}
+
+
+
+
+.textcenter {
+    text-align: center;
+}
+
+.imgcenter {
+    background-color: white;
+    text-align: center;
+    display: block;
+}
+
